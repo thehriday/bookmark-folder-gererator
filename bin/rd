@@ -2,5 +2,6 @@
 parent_path=$( cd "$(dirname "${BASH_SOURCE[0]}")" ; pwd -P )
 cd "$parent_path"
 cd ..
-node app.js $1
+node app.js "$1"
+
 
